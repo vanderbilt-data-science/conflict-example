@@ -1,0 +1,16 @@
+---
+title: "Conflict-Example"
+output: html_notebook
+---
+
+
+# Conflict Example
+
+## Rescaling Function
+
+Provide a rescaling function to recenter and rescale data.
+
+```{r}
+
+```
+
