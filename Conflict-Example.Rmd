@@ -11,6 +11,12 @@ output: html_notebook
 Provide a rescaling function to recenter and rescale data.
 
 ```{r}
+rescale_recenter <- function(input_vec){
+  
+  res_vec <- (input_vec - mean(input_vec, na.rm = TRUE))/sd(input_vec, na.rm = TRUE)
+  
+  return(res_vec)
+}
 
 ```
 
